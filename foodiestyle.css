@@ -1,0 +1,344 @@
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+#header{
+    padding: 0;
+    background-image: url("hero.png");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+ 
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+ }
+
+ .top-header nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;  
+ }
+
+.top-header nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+ }
+
+.branding{
+    text-align: center;
+   
+ }
+
+.branding h1{
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    color: rgb(194, 193, 193);
+ }
+
+.branding h1 span{
+    text-transform: uppercase ;
+    font-style: normal;
+    display: block;
+    font-size: 70px;
+    color: white;
+    font-style: bold;
+    margin: 40px 0;
+    font-family: "Time New Roman";
+ }
+ .btn{
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    padding: 20px 60px;
+    font-weight: bold;
+    text-align: center; 
+ }
+ .branding p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 14.5px;
+    margin: 28px 0;
+    font-weight: lighter;
+ }
+.branding p a{
+    color: white;
+    font-size: 15.5px;
+    font-weight: bold;
+ }
+
+#Sec1{
+    padding: 0;
+
+}
+.supset{
+    width: 80%;
+    margin: 5%  auto;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.subset{
+   text-align: center;
+   
+}
+.subset h3{
+    margin-top: -5px;
+    text-transform: uppercase;
+    padding: 8px 0px;
+    
+}
+.subset span{
+    border-bottom: 1.8px solid #ea3e3e;
+    padding-bottom: 1.5%;
+}
+
+#Sec2{
+    padding: 0;
+    background-image: url("review.png");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    
+}
+.txxt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.text{
+    margin-top: 10%;
+    
+}
+.text p{
+    font-size: 17px;
+}
+
+#Sec3{
+    padding: 0;
+    height: 15vh;
+}
+.browse{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.browse h3{
+    margin: 3% auto;
+    font-size: 25px;
+}
+
+.browse h3 span{
+    border-bottom: 1.8px solid #ea3e3e;
+    padding-bottom: 1.5%;
+}
+
+#Sec4{
+    padding: 0;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.italian{
+    background-image:url("italian.png" ) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 254px;
+    height: 240px;
+    text-align: center;
+    margin-left: -30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Recipes{
+    color: white;
+    justify-content: center;
+    font-style: italic;
+    margin: 25% 0;
+}
+.Recipes span{
+    display: block;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.indian{
+    background-image:url("indian.png" ) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 254px;
+    height: 240px;
+    text-align: center;
+    margin-left: -30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.french{
+    background-image:url("french.png" ) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 254px;
+    height: 240px;
+    text-align: center;
+    margin-left: -30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.steak{
+    background-image:url("steak.png" ) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 254px;
+    height: 240px;
+    text-align: center;
+    margin-left: -30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.seafood{
+    background-image:url("seafood.png" ) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 254px;
+    height: 240px;
+    text-align: center;
+    margin-left: -30px;
+    margin-right: -20px;
+    display: flex;
+    justify-content: center;
+}
+.sushi{
+    background-image:url("sushi.png" ) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 254px;
+    height: 240px;
+    text-align: center;
+    margin-left: -30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.mexican{
+    background-image:url("mexican.png" ) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 254px;
+    height: 240px;
+    text-align: center;
+    margin-left: -30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.chinese{
+    background-image:url("chinese.png" ) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 254px;
+    height: 240px;
+    text-align: center;
+    margin-left: -30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.pizza{
+    background-image:url("pizza.png" ) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 254px;
+    height: 240px;
+    text-align: center;
+    margin-left: -30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.american{
+    background-image:url("american.png" ) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 254px;
+    height: 240px;
+    text-align: center;
+    margin-left: -30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#Sec5{
+   padding: 0;
+   
+
+}
+
+.stats{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    
+    
+}
+.stats h3{
+    font-size: 38px;
+    text-align: center;
+    padding: 0px 5%;
+    padding-top: 1%;
+    
+}
+.stats h3 span{
+    display: block;
+    font-size: 14px;
+    
+}
+hr{
+    margin-bottom:  -20px;
+}
+.foot{
+    width: 80%;
+    height: 15vh;
+    margin: 1px auto;
+    display: flex;
+    justify-content: space-between;
+}
+    .foot h6{
+        font-weight: lighter;
+        font-size: 19px;
+    }
